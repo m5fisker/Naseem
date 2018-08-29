@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6C730F208B495800AE9C21 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F1208B495200AE9C21 /* SF-Pro-Text-BoldItalic.otf */; };
+		6C6C7310208B495800AE9C21 /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F2208B495200AE9C21 /* SF-Pro-Display-Regular.otf */; };
+		6C6C7311208B495800AE9C21 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F3208B495200AE9C21 /* SF-Pro-Display-LightItalic.otf */; };
+		6C6C7312208B495800AE9C21 /* SF-Pro-Display-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F4208B495200AE9C21 /* SF-Pro-Display-RegularItalic.otf */; };
+		6C6C7313208B495800AE9C21 /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F5208B495200AE9C21 /* SF-Pro-Text-HeavyItalic.otf */; };
+		6C6C7314208B495800AE9C21 /* SF-Pro-Display-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F6208B495300AE9C21 /* SF-Pro-Display-MediumItalic.otf */; };
+		6C6C7315208B495800AE9C21 /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F7208B495300AE9C21 /* SF-Pro-Text-MediumItalic.otf */; };
+		6C6C7316208B495800AE9C21 /* SF-Pro-Display-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F8208B495300AE9C21 /* SF-Pro-Display-BoldItalic.otf */; };
+		6C6C7317208B495800AE9C21 /* SF-Pro-Display-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72F9208B495300AE9C21 /* SF-Pro-Display-Ultralight.otf */; };
+		6C6C7318208B495800AE9C21 /* SF-Pro-Display-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FA208B495300AE9C21 /* SF-Pro-Display-SemiboldItalic.otf */; };
+		6C6C7319208B495800AE9C21 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FB208B495400AE9C21 /* SF-Pro-Text-LightItalic.otf */; };
+		6C6C731A208B495800AE9C21 /* SF-Pro-Display-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FC208B495400AE9C21 /* SF-Pro-Display-Black.otf */; };
+		6C6C731B208B495800AE9C21 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FD208B495400AE9C21 /* SF-Pro-Text-RegularItalic.otf */; };
+		6C6C731C208B495800AE9C21 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FE208B495400AE9C21 /* SF-Pro-Display-BlackItalic.otf */; };
+		6C6C731D208B495800AE9C21 /* SF-Pro-Display-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C72FF208B495400AE9C21 /* SF-Pro-Display-ThinItalic.otf */; };
+		6C6C731E208B495800AE9C21 /* SF-Pro-Display-UltralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7300208B495500AE9C21 /* SF-Pro-Display-UltralightItalic.otf */; };
+		6C6C731F208B495800AE9C21 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7301208B495500AE9C21 /* SF-Pro-Text-Bold.otf */; };
+		6C6C7320208B495800AE9C21 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7302208B495500AE9C21 /* SF-Pro-Text-Light.otf */; };
+		6C6C7321208B495800AE9C21 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7303208B495500AE9C21 /* SF-Pro-Text-Heavy.otf */; };
+		6C6C7322208B495800AE9C21 /* SF-Pro-Display-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7304208B495500AE9C21 /* SF-Pro-Display-Bold.otf */; };
+		6C6C7323208B495800AE9C21 /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7305208B495600AE9C21 /* SF-Pro-Display-Semibold.otf */; };
+		6C6C7324208B495800AE9C21 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7306208B495600AE9C21 /* SF-Pro-Text-Medium.otf */; };
+		6C6C7325208B495800AE9C21 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7307208B495600AE9C21 /* SF-Pro-Display-Light.otf */; };
+		6C6C7326208B495800AE9C21 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7308208B495600AE9C21 /* SF-Pro-Display-HeavyItalic.otf */; };
+		6C6C7327208B495800AE9C21 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C7309208B495700AE9C21 /* SF-Pro-Text-Semibold.otf */; };
+		6C6C7328208B495800AE9C21 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C730A208B495700AE9C21 /* SF-Pro-Text-Regular.otf */; };
+		6C6C7329208B495800AE9C21 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C730B208B495700AE9C21 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		6C6C732A208B495800AE9C21 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C730C208B495700AE9C21 /* SF-Pro-Display-Heavy.otf */; };
+		6C6C732B208B495800AE9C21 /* SF-Pro-Display-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C730D208B495700AE9C21 /* SF-Pro-Display-Thin.otf */; };
+		6C6C732C208B495800AE9C21 /* SF-Pro-Display-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C730E208B495800AE9C21 /* SF-Pro-Display-Medium.otf */; };
+		6C7B9876208A1D9C0014DDBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B9875208A1D9C0014DDBE /* AppDelegate.swift */; };
+		6C7B9878208A1D9C0014DDBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7B9877208A1D9C0014DDBE /* ViewController.swift */; };
+		6C7B987B208A1D9C0014DDBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B9879208A1D9C0014DDBE /* Main.storyboard */; };
+		6C7B987D208A1D9C0014DDBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B987C208A1D9C0014DDBE /* Assets.xcassets */; };
+		6C7B9880208A1D9C0014DDBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C7B987E208A1D9C0014DDBE /* LaunchScreen.storyboard */; };
+		D7E0B10440417915BC09DFC2 /* Pods_Naseem2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62609D135D511CE4C7512A2 /* Pods_Naseem2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A5AE382BE1AA2447A514939 /* Pods-Naseem2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naseem2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2.release.xcconfig"; sourceTree = "<group>"; };
+		6C6C72F1208B495200AE9C21 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F2208B495200AE9C21 /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		6C6C72F3208B495200AE9C21 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F4208B495200AE9C21 /* SF-Pro-Display-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-RegularItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F5208B495200AE9C21 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F6208B495300AE9C21 /* SF-Pro-Display-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-MediumItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F7208B495300AE9C21 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F8208B495300AE9C21 /* SF-Pro-Display-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BoldItalic.otf"; sourceTree = "<group>"; };
+		6C6C72F9208B495300AE9C21 /* SF-Pro-Display-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Ultralight.otf"; sourceTree = "<group>"; };
+		6C6C72FA208B495300AE9C21 /* SF-Pro-Display-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6C6C72FB208B495400AE9C21 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		6C6C72FC208B495400AE9C21 /* SF-Pro-Display-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Black.otf"; sourceTree = "<group>"; };
+		6C6C72FD208B495400AE9C21 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		6C6C72FE208B495400AE9C21 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		6C6C72FF208B495400AE9C21 /* SF-Pro-Display-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-ThinItalic.otf"; sourceTree = "<group>"; };
+		6C6C7300208B495500AE9C21 /* SF-Pro-Display-UltralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-UltralightItalic.otf"; sourceTree = "<group>"; };
+		6C6C7301208B495500AE9C21 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		6C6C7302208B495500AE9C21 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
+		6C6C7303208B495500AE9C21 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
+		6C6C7304208B495500AE9C21 /* SF-Pro-Display-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Bold.otf"; sourceTree = "<group>"; };
+		6C6C7305208B495600AE9C21 /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		6C6C7306208B495600AE9C21 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		6C6C7307208B495600AE9C21 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		6C6C7308208B495600AE9C21 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		6C6C7309208B495700AE9C21 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		6C6C730A208B495700AE9C21 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		6C6C730B208B495700AE9C21 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		6C6C730C208B495700AE9C21 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
+		6C6C730D208B495700AE9C21 /* SF-Pro-Display-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Thin.otf"; sourceTree = "<group>"; };
+		6C6C730E208B495800AE9C21 /* SF-Pro-Display-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Medium.otf"; sourceTree = "<group>"; };
+		6C7B9872208A1D9C0014DDBE /* Naseem2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Naseem2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7B9875208A1D9C0014DDBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C7B9877208A1D9C0014DDBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C7B987A208A1D9C0014DDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C7B987C208A1D9C0014DDBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7B987F208A1D9C0014DDBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C7B9881208A1D9C0014DDBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B8822EDC2BC5E114BC3EC9 /* Pods-Naseem2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Naseem2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2.debug.xcconfig"; sourceTree = "<group>"; };
+		F62609D135D511CE4C7512A2 /* Pods_Naseem2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Naseem2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C7B986F208A1D9C0014DDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0B10440417915BC09DFC2 /* Pods_Naseem2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B287977A0217CD48C60962 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F62609D135D511CE4C7512A2 /* Pods_Naseem2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C6C732D208B497500AE9C21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6C6C72FC208B495400AE9C21 /* SF-Pro-Display-Black.otf */,
+				6C6C72FE208B495400AE9C21 /* SF-Pro-Display-BlackItalic.otf */,
+				6C6C7304208B495500AE9C21 /* SF-Pro-Display-Bold.otf */,
+				6C6C72F8208B495300AE9C21 /* SF-Pro-Display-BoldItalic.otf */,
+				6C6C730C208B495700AE9C21 /* SF-Pro-Display-Heavy.otf */,
+				6C6C7308208B495600AE9C21 /* SF-Pro-Display-HeavyItalic.otf */,
+				6C6C7307208B495600AE9C21 /* SF-Pro-Display-Light.otf */,
+				6C6C72F3208B495200AE9C21 /* SF-Pro-Display-LightItalic.otf */,
+				6C6C730E208B495800AE9C21 /* SF-Pro-Display-Medium.otf */,
+				6C6C72F6208B495300AE9C21 /* SF-Pro-Display-MediumItalic.otf */,
+				6C6C72F2208B495200AE9C21 /* SF-Pro-Display-Regular.otf */,
+				6C6C72F4208B495200AE9C21 /* SF-Pro-Display-RegularItalic.otf */,
+				6C6C7305208B495600AE9C21 /* SF-Pro-Display-Semibold.otf */,
+				6C6C72FA208B495300AE9C21 /* SF-Pro-Display-SemiboldItalic.otf */,
+				6C6C730D208B495700AE9C21 /* SF-Pro-Display-Thin.otf */,
+				6C6C72FF208B495400AE9C21 /* SF-Pro-Display-ThinItalic.otf */,
+				6C6C72F9208B495300AE9C21 /* SF-Pro-Display-Ultralight.otf */,
+				6C6C7300208B495500AE9C21 /* SF-Pro-Display-UltralightItalic.otf */,
+				6C6C7301208B495500AE9C21 /* SF-Pro-Text-Bold.otf */,
+				6C6C72F1208B495200AE9C21 /* SF-Pro-Text-BoldItalic.otf */,
+				6C6C7303208B495500AE9C21 /* SF-Pro-Text-Heavy.otf */,
+				6C6C72F5208B495200AE9C21 /* SF-Pro-Text-HeavyItalic.otf */,
+				6C6C7302208B495500AE9C21 /* SF-Pro-Text-Light.otf */,
+				6C6C72FB208B495400AE9C21 /* SF-Pro-Text-LightItalic.otf */,
+				6C6C7306208B495600AE9C21 /* SF-Pro-Text-Medium.otf */,
+				6C6C72F7208B495300AE9C21 /* SF-Pro-Text-MediumItalic.otf */,
+				6C6C730A208B495700AE9C21 /* SF-Pro-Text-Regular.otf */,
+				6C6C72FD208B495400AE9C21 /* SF-Pro-Text-RegularItalic.otf */,
+				6C6C7309208B495700AE9C21 /* SF-Pro-Text-Semibold.otf */,
+				6C6C730B208B495700AE9C21 /* SF-Pro-Text-SemiboldItalic.otf */,
+			);
+			name = Fonts;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		6C7B9869208A1D9C0014DDBE = {
+			isa = PBXGroup;
+			children = (
+				6C7B9874208A1D9C0014DDBE /* Naseem2 */,
+				6C7B9873208A1D9C0014DDBE /* Products */,
+				E7DBD6FD193644A6FB367F9D /* Pods */,
+				13B287977A0217CD48C60962 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C7B9873208A1D9C0014DDBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B9872208A1D9C0014DDBE /* Naseem2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C7B9874208A1D9C0014DDBE /* Naseem2 */ = {
+			isa = PBXGroup;
+			children = (
+				6C7B9875208A1D9C0014DDBE /* AppDelegate.swift */,
+				6C7B9877208A1D9C0014DDBE /* ViewController.swift */,
+				6C7B9879208A1D9C0014DDBE /* Main.storyboard */,
+				6C6C732D208B497500AE9C21 /* Fonts */,
+				6C7B987C208A1D9C0014DDBE /* Assets.xcassets */,
+				6C7B987E208A1D9C0014DDBE /* LaunchScreen.storyboard */,
+				6C7B9881208A1D9C0014DDBE /* Info.plist */,
+			);
+			path = Naseem2;
+			sourceTree = "<group>";
+		};
+		E7DBD6FD193644A6FB367F9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95B8822EDC2BC5E114BC3EC9 /* Pods-Naseem2.debug.xcconfig */,
+				0A5AE382BE1AA2447A514939 /* Pods-Naseem2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C7B9871208A1D9C0014DDBE /* Naseem2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7B9884208A1D9C0014DDBE /* Build configuration list for PBXNativeTarget "Naseem2" */;
+			buildPhases = (
+				81EDCA9CC54204A54773F03A /* [CP] Check Pods Manifest.lock */,
+				6C7B986E208A1D9C0014DDBE /* Sources */,
+				6C7B986F208A1D9C0014DDBE /* Frameworks */,
+				6C7B9870208A1D9C0014DDBE /* Resources */,
+				BFF5A787B10ECE442E5E5845 /* [CP] Embed Pods Frameworks */,
+				0846B282DD457C0320721910 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Naseem2;
+			productName = Naseem2;
+			productReference = 6C7B9872208A1D9C0014DDBE /* Naseem2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C7B986A208A1D9C0014DDBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kumar Soorya";
+				TargetAttributes = {
+					6C7B9871208A1D9C0014DDBE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C7B986D208A1D9C0014DDBE /* Build configuration list for PBXProject "Naseem2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C7B9869208A1D9C0014DDBE;
+			productRefGroup = 6C7B9873208A1D9C0014DDBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C7B9871208A1D9C0014DDBE /* Naseem2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C7B9870208A1D9C0014DDBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6C7323208B495800AE9C21 /* SF-Pro-Display-Semibold.otf in Resources */,
+				6C6C7315208B495800AE9C21 /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				6C6C731C208B495800AE9C21 /* SF-Pro-Display-BlackItalic.otf in Resources */,
+				6C7B9880208A1D9C0014DDBE /* LaunchScreen.storyboard in Resources */,
+				6C6C7329208B495800AE9C21 /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				6C6C7325208B495800AE9C21 /* SF-Pro-Display-Light.otf in Resources */,
+				6C6C732C208B495800AE9C21 /* SF-Pro-Display-Medium.otf in Resources */,
+				6C6C7321208B495800AE9C21 /* SF-Pro-Text-Heavy.otf in Resources */,
+				6C6C731B208B495800AE9C21 /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				6C6C732B208B495800AE9C21 /* SF-Pro-Display-Thin.otf in Resources */,
+				6C6C731D208B495800AE9C21 /* SF-Pro-Display-ThinItalic.otf in Resources */,
+				6C6C7320208B495800AE9C21 /* SF-Pro-Text-Light.otf in Resources */,
+				6C6C731A208B495800AE9C21 /* SF-Pro-Display-Black.otf in Resources */,
+				6C6C731F208B495800AE9C21 /* SF-Pro-Text-Bold.otf in Resources */,
+				6C6C7319208B495800AE9C21 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				6C6C7322208B495800AE9C21 /* SF-Pro-Display-Bold.otf in Resources */,
+				6C6C731E208B495800AE9C21 /* SF-Pro-Display-UltralightItalic.otf in Resources */,
+				6C6C7324208B495800AE9C21 /* SF-Pro-Text-Medium.otf in Resources */,
+				6C6C7328208B495800AE9C21 /* SF-Pro-Text-Regular.otf in Resources */,
+				6C7B987D208A1D9C0014DDBE /* Assets.xcassets in Resources */,
+				6C6C7317208B495800AE9C21 /* SF-Pro-Display-Ultralight.otf in Resources */,
+				6C6C7318208B495800AE9C21 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
+				6C6C7312208B495800AE9C21 /* SF-Pro-Display-RegularItalic.otf in Resources */,
+				6C6C7313208B495800AE9C21 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				6C6C7327208B495800AE9C21 /* SF-Pro-Text-Semibold.otf in Resources */,
+				6C6C7314208B495800AE9C21 /* SF-Pro-Display-MediumItalic.otf in Resources */,
+				6C6C7311208B495800AE9C21 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				6C6C7316208B495800AE9C21 /* SF-Pro-Display-BoldItalic.otf in Resources */,
+				6C6C730F208B495800AE9C21 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				6C6C7310208B495800AE9C21 /* SF-Pro-Display-Regular.otf in Resources */,
+				6C6C7326208B495800AE9C21 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				6C6C732A208B495800AE9C21 /* SF-Pro-Display-Heavy.otf in Resources */,
+				6C7B987B208A1D9C0014DDBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0846B282DD457C0320721910 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EDCA9CC54204A54773F03A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Naseem2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFF5A787B10ECE442E5E5845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Naseem2/Pods-Naseem2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C7B986E208A1D9C0014DDBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7B9878208A1D9C0014DDBE /* ViewController.swift in Sources */,
+				6C7B9876208A1D9C0014DDBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C7B9879208A1D9C0014DDBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B987A208A1D9C0014DDBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C7B987E208A1D9C0014DDBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C7B987F208A1D9C0014DDBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C7B9882208A1D9C0014DDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C7B9883208A1D9C0014DDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C7B9885208A1D9C0014DDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95B8822EDC2BC5E114BC3EC9 /* Pods-Naseem2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Z5AM9PUL;
+				INFOPLIST_FILE = Naseem2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rekt.1422007.Naseem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C7B9886208A1D9C0014DDBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5AE382BE1AA2447A514939 /* Pods-Naseem2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Z5AM9PUL;
+				INFOPLIST_FILE = Naseem2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rekt.1422007.Naseem2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C7B986D208A1D9C0014DDBE /* Build configuration list for PBXProject "Naseem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B9882208A1D9C0014DDBE /* Debug */,
+				6C7B9883208A1D9C0014DDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7B9884208A1D9C0014DDBE /* Build configuration list for PBXNativeTarget "Naseem2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7B9885208A1D9C0014DDBE /* Debug */,
+				6C7B9886208A1D9C0014DDBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C7B986A208A1D9C0014DDBE /* Project object */;
+}
